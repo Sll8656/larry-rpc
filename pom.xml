@@ -12,6 +12,8 @@
         <module>common</module>
         <module>provider</module>
         <module>consumer</module>
+        <module>larry-rpc-easy</module>
+        <module>larry-rpc-core</module>
     </modules>
 
     <properties>
