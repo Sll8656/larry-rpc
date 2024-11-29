@@ -23,6 +23,8 @@ public class ServiceProxy implements InvocationHandler {
      */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+//        System.out.println("Invoke called by: " + Thread.currentThread().getName());
+//        System.out.println("Method invoked: " + method.getName());
         // 指定序列化器
         Serializer serializer = new JdkSerializer();
         // 构造请求
@@ -43,6 +45,9 @@ public class ServiceProxy implements InvocationHandler {
                 byte[] result = httpResponse.bodyBytes();
                 // 反序列化
                 RpcResponse rpcResponse = serializer.deserialize(result, RpcResponse.class);
+//                System.out.println("rpcResponse.getData() = " +  rpcResponse.getData());
+//                System.out.println();
+//                System.out.println("rpcResponse.getData().classLoader = " +  rpcResponse.getData().getClass().getClassLoader());
                 return rpcResponse.getData();
             }
         } catch (IOException e) {
