@@ -1,5 +1,6 @@
 package com.larry.config;
 
+import com.larry.serializer.SerializerKeys;
 import lombok.Data;
 /**
  * RPC 框架配置
@@ -28,4 +29,8 @@ public class RpcConfig {
      * 模拟调⽤
      */
     private boolean mock = false;
+    /**
+     * 序列化器
+     */
+    private String serializer = SerializerKeys.JDK;
 }

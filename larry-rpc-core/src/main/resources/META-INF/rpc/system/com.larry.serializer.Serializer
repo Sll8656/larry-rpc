@@ -1,0 +1,2 @@
+hessian=com.larry.serializer.HessianSerializer
+json=com.larry.serializer.JsonSerializer

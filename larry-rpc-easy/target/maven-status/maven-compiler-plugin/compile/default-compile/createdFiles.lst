@@ -1,0 +1,12 @@
+com\larry\serializer\Serializer.class
+com\larry\model\RpcRequest.class
+com\larry\server\HttpServerHandler.class
+com\larry\model\RpcResponse.class
+com\larry\proxy\ServiceProxy.class
+com\larry\registry\LocalRegistry.class
+com\larry\proxy\ServiceProxyFactory.class
+com\larry\serializer\JdkSerializer.class
+com\larry\server\VertHttpServer.class
+com\larry\model\RpcResponse$RpcResponseBuilder.class
+com\larry\model\RpcRequest$RpcRequestBuilder.class
+com\larry\server\HttpServer.class
