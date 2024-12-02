@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f16a0224-ae01-4957-bbfc-0daed381baed" name="更改" comment="SPI" />
+    <list default="true" id="f16a0224-ae01-4957-bbfc-0daed381baed" name="更改" comment="SPI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/consumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/larry-rpc-core/larry-rpc-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/larry-rpc-easy/larry-rpc-easy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/larry-rpc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/provider.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,24 +41,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.larry-rpc [clean].executor": "Run",
-    "Maven.larry-rpc [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/code/larry-rpc/larry-rpc-core/src/main/resources/META-INF/rpc/custom",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.ConsumerExample.executor": "Run",
-    "应用程序.EasyProviderExample.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.larry-rpc [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.larry-rpc [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/larry-rpc/larry-rpc-core/src/main/resources/META-INF/rpc/custom&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ConsumerExample.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.EasyProviderExample.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\larry-rpc\larry-rpc-core\src\main\resources\META-INF\rpc\custom" />
@@ -61,7 +75,7 @@
       <recent name="E:\code\larry-rpc\larry-rpc-core\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ConsumerExample">
+  <component name="RunManager" selected="Application.EasyProviderExample">
     <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.larry.ConsumerExample" />
       <module name="consumer" />
@@ -90,16 +104,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ConsumerExample" />
-        <item itemvalue="应用程序.EasyProviderExample" />
+        <item itemvalue="Application.EasyProviderExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -114,6 +127,7 @@
       <workItem from="1732963359457" duration="831000" />
       <workItem from="1733017478071" duration="2218000" />
       <workItem from="1733120531597" duration="53000" />
+      <workItem from="1733121626661" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="SPI">
       <option name="closed" value="true" />
@@ -128,6 +142,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SPI" />
