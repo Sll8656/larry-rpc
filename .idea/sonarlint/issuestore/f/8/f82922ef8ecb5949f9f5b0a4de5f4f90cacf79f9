@@ -1,0 +1,6 @@
+
+@	java:S106"+Replace this use of System.out by a logger.(×ÑèŠ
+I
+java:S18745"3Remove this use of "newInstance"; it is deprecated.(¨òÏ¶
+a
+java:S1128"?Remove this unused import 'com.larry.serializer.JdkSerializer'.(Å ÚÖûÿÿÿÿ8ƒ˜€¸2
