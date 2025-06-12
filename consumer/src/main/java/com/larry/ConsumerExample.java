@@ -10,7 +10,9 @@ public class ConsumerExample {
     public static void main(String[] args) {
         // 获取代理
         UserService userService = ServiceProxyFactory.getProxy(UserService.class);
+        System.out.println("----------" );
         System.out.println(userService == null);
+        System.out.println("----------");
         User user = new User();
         user.setName("larry");
         // 调⽤
@@ -20,7 +22,7 @@ public class ConsumerExample {
         } else {
             System.out.println("user == null");
         }
-        short number = userService.getNumber();
-        System.out.println(number);
+//        short number = userService.getNumber();
+//        System.out.println(number);
     }
 }

@@ -33,8 +33,7 @@ public class ServiceProxyFactory {
                     new Class[]{serviceClass},
                     new ServiceProxy()
             );
-//            System.out.println("Proxy created: " + proxy);
-//            System.out.println("Proxy created: " + proxy);
+            System.out.println("Proxy created: " + proxy);
             return proxy;
         } catch (Exception e) {
             e.printStackTrace();

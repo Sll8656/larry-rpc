@@ -6,9 +6,9 @@ public interface UserService {
     /**
      * 新⽅法 - 获取数字
      */
-    default short getNumber() {
-        return 1;
-    }
+//    default short getNumber() {
+//        return 1;
+//    }
     /**
      * 获取⽤户
      *

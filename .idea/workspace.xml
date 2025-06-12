@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f16a0224-ae01-4957-bbfc-0daed381baed" name="更改" comment="SPI">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/larry/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/larry/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/larry/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/larry/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/larry/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/larry/ConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/larry/ConsumerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/larry/ConsumerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larry-rpc-core/src/main/java/com/larry/proxy/ServiceProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/larry-rpc-core/src/main/java/com/larry/proxy/ServiceProxyFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +31,17 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ConsumerExample.executor": "Run",
+    "Application.ConsumerExample.executor": "Debug",
     "Application.EasyProviderExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/shaolongling/IdeaProjects/larry-rpc",
@@ -45,11 +53,11 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "settings.editor.selected.configurable": "Debugger_Data_Views_Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EasyProviderExample">
+  <component name="RunManager" selected="Application.ConsumerExample">
     <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.larry.ConsumerExample" />
       <module name="consumer" />
@@ -78,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EasyProviderExample" />
         <item itemvalue="Application.ConsumerExample" />
+        <item itemvalue="Application.EasyProviderExample" />
       </list>
     </recent_temporary>
   </component>
@@ -100,12 +108,36 @@
       <updated>1733827723374</updated>
       <workItem from="1733827724474" duration="1290000" />
       <workItem from="1738817320720" duration="9000" />
-      <workItem from="1749716585308" duration="548000" />
+      <workItem from="1749716585308" duration="3874000" />
     </task>
+    <task id="LOCAL-00001" summary="SPI">
+      <option name="closed" value="true" />
+      <created>1749717428681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749717428681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="SPI" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/larry-rpc-core/src/main/java/com/larry/proxy/ServiceProxyFactory.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
