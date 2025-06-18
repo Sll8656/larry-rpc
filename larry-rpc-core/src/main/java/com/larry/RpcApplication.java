@@ -1,7 +1,10 @@
 package com.larry;
 
+import com.larry.config.RegistryConfig;
 import com.larry.config.RpcConfig;
 import com.larry.constant.RpcConstant;
+import com.larry.registry.Registry;
+import com.larry.registry.RegistryFactory;
 import com.larry.utils.ConfigUtils;
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,6 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class RpcApplication {
     private static volatile RpcConfig rpcConfig;
+
     /**
      * 框架初始化，⽀持传⼊⾃定义配置
      *
@@ -20,7 +24,13 @@ public class RpcApplication {
     public static void init(RpcConfig newRpcConfig) {
         rpcConfig = newRpcConfig;
         log.info("rpc init, config = {}", newRpcConfig.toString());
+        // 注册中⼼初始化
+        RegistryConfig registryConfig = rpcConfig.getRegistryConfig();
+        Registry registry = RegistryFactory.getInstance(registryConfig.getRegistry());
+        registry.init(registryConfig);
+        log.info("registry init, config = {}", registryConfig);
     }
+
     /**
      * 初始化
      */
@@ -34,6 +44,7 @@ public class RpcApplication {
         }
         init(newRpcConfig);
     }
+
     /**
      * 获取配置
      *
