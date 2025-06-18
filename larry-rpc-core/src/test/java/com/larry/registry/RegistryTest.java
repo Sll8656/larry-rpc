@@ -2,6 +2,9 @@ package com.larry.registry;
 
 import com.larry.config.RegistryConfig;
 import com.larry.model.ServiceMetaInfo;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.List;
 

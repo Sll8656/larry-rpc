@@ -1,0 +1,12 @@
+# IDEA 工程目录
+.idea/
+*.iml
+
+# 编译产物
+out/
+target/
+*.class
+
+# 临时文件
+*.log
+*.tmp.idea/
