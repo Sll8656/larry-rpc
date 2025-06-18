@@ -18,6 +18,7 @@ public class RegistryTest {
     @Test
     public void register() throws Exception {
         ServiceMetaInfo serviceMetaInfo = new ServiceMetaInfo();
+
         serviceMetaInfo.setServiceName("myService");
         serviceMetaInfo.setServiceVersion("1.0");
         serviceMetaInfo.setServiceHost("localhost");

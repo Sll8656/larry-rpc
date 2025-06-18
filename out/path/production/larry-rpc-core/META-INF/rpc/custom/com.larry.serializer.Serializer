@@ -1,2 +1,0 @@
-jdk=com.larry.serializer.JdkSerializer
-kryo=com.larry.serializer.KryoSerializer
