@@ -2,9 +2,6 @@ package com.larry.serializer;
 
 import com.larry.spi.SpiLoader;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class SerializerFactory {
     static {
         SpiLoader.load(Serializer.class);
@@ -24,5 +21,4 @@ public class SerializerFactory {
     public static Serializer getInstance(String key) {
         return SpiLoader.getInstance(Serializer.class, key);
     }
-
 }

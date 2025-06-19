@@ -33,6 +33,17 @@ public class ServiceProxy implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 //        System.out.println("Invoke called by: " + Thread.currentThread().getName());
 //        System.out.println("Method invoked: " + method.getName());
+        String methodName = method.getName();
+        if (method.getDeclaringClass() == Object.class) {
+            switch (methodName) {
+                case "toString":
+                    return proxy.getClass().getName() + "@" + Integer.toHexString(System.identityHashCode(proxy));
+                case "hashCode":
+                    return System.identityHashCode(proxy);
+                case "equals":
+                    return proxy == args[0];
+            }
+        }
         // 指定序列化器
         Serializer serializer = SerializerFactory.getInstance(RpcApplication.getRpcConfig().getSerializer());
         // 构造请求
@@ -59,7 +70,8 @@ public class ServiceProxy implements InvocationHandler {
             // 暂时先取第⼀个
             ServiceMetaInfo selectedServiceMetaInfo = serviceMetaInfoList.get(0);
             // 发送请求
-            try (HttpResponse httpResponse = HttpRequest.post(selectedServiceMetaInfo.getServiceAddress())
+            try (HttpResponse httpResponse = HttpRequest.post(
+                    selectedServiceMetaInfo.getServiceAddress())
                     .body(bodyBytes)
                     .execute()) {
                 byte[] result = httpResponse.bodyBytes();
